@@ -511,7 +511,7 @@ public abstract class A {
 }
 ```
 
-只能访问所属类的静态字段和静态方法，方法中不能有 this 和 super 关键字，因此这两个关键字与具体对象关联。
+只能访问所属类的静态字段和静态方法，方法中不能有 this 和 super 关键字，因为这两个关键字与具体对象关联。
 
 ```java
 public class A {
@@ -1386,8 +1386,9 @@ Throwable 可以用来表示任何可以作为异常抛出的类，分为两种�
 
 <div align="center"> <img src="https://cs-notes-1256109796.cos.ap-guangzhou.myqcloud.com/PPjwP.png" width="600"/> </div><br>
 
-- [Java 入门之异常处理](https://www.cnblogs.com/Blue-Keroro/p/8875898.html)
 - [Java Exception Interview Questions and Answers](https://www.journaldev.com/2167/java-exception-interview-questions-and-answersl)
+
+- [Java提高篇——Java 异常处理](https://www.cnblogs.com/Qian123/p/5715402.html)
 
 ## 九、泛型
 
